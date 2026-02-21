@@ -1,0 +1,39 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "1e86db82-3d96-4db0-bb82-f47ecfd62d94",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "James Cashio",
+        "websiteUrl": "https://github.com/jamescashio",
+        "privacyUrl": "https://github.com/jamescashio",
+        "termsOfUseUrl": "https://github.com/jamescashio"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "My little GMan",
+        "full": "My little GMan - OSINT Assistant"
+    },
+    "description": {
+        "short": "OSINT research assistant",
+        "full": "Open Source Intelligence OSINT assistant for public-source research."
+    },
+    "accentColor": "#FFFFFF",
+    "copilotExtensions": {
+        "declarativeCopilots": [
+            {
+                "id": "mylittlegman",
+                "file": "declarativeCopilot.json"
+            }
+        ]
+    },
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
